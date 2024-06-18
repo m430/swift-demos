@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftDemosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Toolbar_OnKeyboard()
         }
     }
 }
