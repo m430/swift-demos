@@ -12,10 +12,8 @@
 		7D67A2772C1046AD00D74830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67A2762C1046AD00D74830 /* Assets.xcassets */; };
 		7D67A27A2C1046AD00D74830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67A2792C1046AD00D74830 /* Preview Assets.xcassets */; };
 		7D67A2842C1046AE00D74830 /* SwiftDemosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67A2832C1046AE00D74830 /* SwiftDemosTests.swift */; };
-		7D67A29E2C104A0500D74830 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67A29D2C104A0500D74830 /* UserService.swift */; };
 		7D67A2A22C104BED00D74830 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 7D67A2A12C104BED00D74830 /* Dependencies */; };
 		7D67A2A42C104BED00D74830 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 7D67A2A32C104BED00D74830 /* DependenciesMacros */; };
-		7D67A2A72C104DD100D74830 /* FeatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67A2A62C104DD100D74830 /* FeatureModel.swift */; };
 		7D67A2AB2C106CAB00D74830 /* LayoutBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67A2AA2C106CAB00D74830 /* LayoutBehavior.swift */; };
 		7D67A2AD2C1090AD00D74830 /* LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67A2AC2C1090AD00D74830 /* LazyVStack.swift */; };
 		7DC4DD4B2C1091A400B90328 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DD4A2C1091A400B90328 /* HeaderView.swift */; };
@@ -41,6 +39,25 @@
 		7DC4DE0B2C1D36C000B90328 /* ZStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE0A2C1D36C000B90328 /* ZStack_Intro.swift */; };
 		7DC4DE0E2C203F7500B90328 /* GeometryReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE0D2C203F7500B90328 /* GeometryReader_Intro.swift */; };
 		7DC4DE122C2042FA00B90328 /* Position_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE112C2042FA00B90328 /* Position_Intro.swift */; };
+		7DC4DE142C2122E700B90328 /* Coordinates_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE132C2122E700B90328 /* Coordinates_Intro.swift */; };
+		7DC4DE162C21240C00B90328 /* Coordinates_WithinGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE152C21240C00B90328 /* Coordinates_WithinGeometryReader.swift */; };
+		7DC4DE192C212BA600B90328 /* ScaleToFit_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE182C212BA600B90328 /* ScaleToFit_Intro.swift */; };
+		7DC4DE1F2C21599200B90328 /* TabView_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE1E2C21599200B90328 /* TabView_Intro.swift */; };
+		7DC4DE212C215AE900B90328 /* TabView_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE202C215AE900B90328 /* TabView_Colors.swift */; };
+		7DC4DE232C215B9400B90328 /* TabView_BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE222C215B9400B90328 /* TabView_BackgroundColor.swift */; };
+		7DC4DE252C215E4000B90328 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE242C215E4000B90328 /* TabView_UITabBarAppearance.swift */; };
+		7DC4DE272C215FD200B90328 /* TabView_PageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE262C215FD200B90328 /* TabView_PageStyle.swift */; };
+		7DC4DE302C22800400B90328 /* GeometryReader_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE2F2C22800400B90328 /* GeometryReader_Alignment.swift */; };
+		7DC4DE322C22A36A00B90328 /* ZStack_Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE312C22A36A00B90328 /* ZStack_Layer.swift */; };
+		7DC4DE342C22B64800B90328 /* GeometryReader_GetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE332C22B64800B90328 /* GeometryReader_GetSize.swift */; };
+		7DC4DE362C22B75F00B90328 /* GeometryReader_Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE352C22B75F00B90328 /* GeometryReader_Positioning.swift */; };
+		7DC4DE382C22B88300B90328 /* GeometryReader_GetCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE372C22B88300B90328 /* GeometryReader_GetCoordinates.swift */; };
+		7DC4DE3A2C22BAEC00B90328 /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE392C22BAEC00B90328 /* GeometryReader_MinMidMax.swift */; };
+		7DC4DE4E2C254D0B00B90328 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE4D2C254D0B00B90328 /* PickerView.swift */; };
+		7DC4DE502C254D1800B90328 /* PickerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE4F2C254D1800B90328 /* PickerFeature.swift */; };
+		7DC4DE522C254D7600B90328 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7DC4DE512C254D7600B90328 /* ComposableArchitecture */; };
+		7DC4DE572C25868D00B90328 /* Scope_WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */; };
+		7DC4DE592C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +78,6 @@
 		7D67A2792C1046AD00D74830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D67A27F2C1046AE00D74830 /* SwiftDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D67A2832C1046AE00D74830 /* SwiftDemosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemosTests.swift; sourceTree = "<group>"; };
-		7D67A29D2C104A0500D74830 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		7D67A2A62C104DD100D74830 /* FeatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModel.swift; sourceTree = "<group>"; };
 		7D67A2AA2C106CAB00D74830 /* LayoutBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutBehavior.swift; sourceTree = "<group>"; };
 		7D67A2AC2C1090AD00D74830 /* LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack.swift; sourceTree = "<group>"; };
 		7DC4DD4A2C1091A400B90328 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -88,6 +103,25 @@
 		7DC4DE0A2C1D36C000B90328 /* ZStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Intro.swift; sourceTree = "<group>"; };
 		7DC4DE0D2C203F7500B90328 /* GeometryReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Intro.swift; sourceTree = "<group>"; };
 		7DC4DE112C2042FA00B90328 /* Position_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position_Intro.swift; sourceTree = "<group>"; };
+		7DC4DE132C2122E700B90328 /* Coordinates_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates_Intro.swift; sourceTree = "<group>"; };
+		7DC4DE152C21240C00B90328 /* Coordinates_WithinGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates_WithinGeometryReader.swift; sourceTree = "<group>"; };
+		7DC4DE182C212BA600B90328 /* ScaleToFit_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleToFit_Intro.swift; sourceTree = "<group>"; };
+		7DC4DE1E2C21599200B90328 /* TabView_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Intro.swift; sourceTree = "<group>"; };
+		7DC4DE202C215AE900B90328 /* TabView_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Colors.swift; sourceTree = "<group>"; };
+		7DC4DE222C215B9400B90328 /* TabView_BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_BackgroundColor.swift; sourceTree = "<group>"; };
+		7DC4DE242C215E4000B90328 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
+		7DC4DE262C215FD200B90328 /* TabView_PageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageStyle.swift; sourceTree = "<group>"; };
+		7DC4DE2C2C217B1B00B90328 /* Swift_Date.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Date.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7DC4DE2F2C22800400B90328 /* GeometryReader_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Alignment.swift; sourceTree = "<group>"; };
+		7DC4DE312C22A36A00B90328 /* ZStack_Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layer.swift; sourceTree = "<group>"; };
+		7DC4DE332C22B64800B90328 /* GeometryReader_GetSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GetSize.swift; sourceTree = "<group>"; };
+		7DC4DE352C22B75F00B90328 /* GeometryReader_Positioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Positioning.swift; sourceTree = "<group>"; };
+		7DC4DE372C22B88300B90328 /* GeometryReader_GetCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GetCoordinates.swift; sourceTree = "<group>"; };
+		7DC4DE392C22BAEC00B90328 /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
+		7DC4DE4D2C254D0B00B90328 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		7DC4DE4F2C254D1800B90328 /* PickerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFeature.swift; sourceTree = "<group>"; };
+		7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation.swift; sourceTree = "<group>"; };
+		7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_CustomAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +131,7 @@
 			files = (
 				7D67A2A42C104BED00D74830 /* DependenciesMacros in Frameworks */,
 				7D67A2A22C104BED00D74830 /* Dependencies in Frameworks */,
+				7DC4DE522C254D7600B90328 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,11 +167,11 @@
 		7D67A2712C1046AC00D74830 /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
+				7DC4DE4B2C2542AC00B90328 /* TCA */,
+				7DC4DE2A2C217A1500B90328 /* Swift */,
 				7DC4DDD62C197A5E00B90328 /* Animations */,
 				7DC4DD4C2C10B6CA00B90328 /* CoreDataMastery */,
-				7D67A2A92C106C8500D74830 /* SwiftUIViewMastery */,
-				7D67A2A52C104DBF00D74830 /* Models */,
-				7D67A29C2C1049F400D74830 /* Services */,
+				7D67A2A92C106C8500D74830 /* SwiftUI */,
 				7D67A2722C1046AC00D74830 /* SwiftDemosApp.swift */,
 				7D67A2742C1046AC00D74830 /* ContentView.swift */,
 				7D67A2762C1046AD00D74830 /* Assets.xcassets */,
@@ -161,14 +196,6 @@
 			path = SwiftDemosTests;
 			sourceTree = "<group>";
 		};
-		7D67A29C2C1049F400D74830 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				7D67A29D2C104A0500D74830 /* UserService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		7D67A2A02C104BED00D74830 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,30 +203,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D67A2A52C104DBF00D74830 /* Models */ = {
+		7D67A2A92C106C8500D74830 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				7D67A2A62C104DD100D74830 /* FeatureModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		7D67A2A92C106C8500D74830 /* SwiftUIViewMastery */ = {
-			isa = PBXGroup;
-			children = (
+				7DC4DE1C2C2158E400B90328 /* LayoutViews */,
+				7DC4DE1B2C2158CC00B90328 /* ControlViews */,
 				7DC4DE0F2C2041F700B90328 /* Modifiers */,
-				7DC4DE0C2C203F4E00B90328 /* GeometryReader */,
-				7DC4DE092C1D36B300B90328 /* ZStack */,
-				7DC4DE062C1D343700B90328 /* HStack */,
 				7DC4DE022C1C7A3900B90328 /* Image */,
 				7DC4DDEF2C1C411100B90328 /* Toolbar */,
-				7DC4DDE42C1C3B1500B90328 /* NavigationStack */,
 				7DC4DD492C10917900B90328 /* Template */,
 				7D67A2AA2C106CAB00D74830 /* LayoutBehavior.swift */,
 				7D67A2AC2C1090AD00D74830 /* LazyVStack.swift */,
 				7DC4DDE22C1C36C200B90328 /* NavigationStack_Demo.swift */,
 			);
-			path = SwiftUIViewMastery;
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		7DC4DD492C10917900B90328 /* Template */ = {
@@ -256,6 +273,7 @@
 		7DC4DDD62C197A5E00B90328 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				7DC4DE552C25866B00B90328 /* AnimationOptions */,
 				7DC4DDD72C197A8D00B90328 /* AnimateSFSymbols.swift */,
 			);
 			path = Animations;
@@ -306,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC4DE0A2C1D36C000B90328 /* ZStack_Intro.swift */,
+				7DC4DE312C22A36A00B90328 /* ZStack_Layer.swift */,
 			);
 			path = ZStack;
 			sourceTree = "<group>";
@@ -314,6 +333,11 @@
 			isa = PBXGroup;
 			children = (
 				7DC4DE0D2C203F7500B90328 /* GeometryReader_Intro.swift */,
+				7DC4DE2F2C22800400B90328 /* GeometryReader_Alignment.swift */,
+				7DC4DE332C22B64800B90328 /* GeometryReader_GetSize.swift */,
+				7DC4DE352C22B75F00B90328 /* GeometryReader_Positioning.swift */,
+				7DC4DE372C22B88300B90328 /* GeometryReader_GetCoordinates.swift */,
+				7DC4DE392C22BAEC00B90328 /* GeometryReader_MinMidMax.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -321,6 +345,8 @@
 		7DC4DE0F2C2041F700B90328 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				7DC4DE1A2C21574100B90328 /* ZIndex */,
+				7DC4DE172C21288800B90328 /* ScaleToFit */,
 				7DC4DE102C20420000B90328 /* Position */,
 			);
 			path = Modifiers;
@@ -330,8 +356,98 @@
 			isa = PBXGroup;
 			children = (
 				7DC4DE112C2042FA00B90328 /* Position_Intro.swift */,
+				7DC4DE132C2122E700B90328 /* Coordinates_Intro.swift */,
+				7DC4DE152C21240C00B90328 /* Coordinates_WithinGeometryReader.swift */,
 			);
 			path = Position;
+			sourceTree = "<group>";
+		};
+		7DC4DE172C21288800B90328 /* ScaleToFit */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE182C212BA600B90328 /* ScaleToFit_Intro.swift */,
+			);
+			path = ScaleToFit;
+			sourceTree = "<group>";
+		};
+		7DC4DE1A2C21574100B90328 /* ZIndex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZIndex;
+			sourceTree = "<group>";
+		};
+		7DC4DE1B2C2158CC00B90328 /* ControlViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE1D2C21596700B90328 /* TabView */,
+				7DC4DDE42C1C3B1500B90328 /* NavigationStack */,
+			);
+			path = ControlViews;
+			sourceTree = "<group>";
+		};
+		7DC4DE1C2C2158E400B90328 /* LayoutViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE062C1D343700B90328 /* HStack */,
+				7DC4DE092C1D36B300B90328 /* ZStack */,
+				7DC4DE0C2C203F4E00B90328 /* GeometryReader */,
+			);
+			path = LayoutViews;
+			sourceTree = "<group>";
+		};
+		7DC4DE1D2C21596700B90328 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE1E2C21599200B90328 /* TabView_Intro.swift */,
+				7DC4DE202C215AE900B90328 /* TabView_Colors.swift */,
+				7DC4DE222C215B9400B90328 /* TabView_BackgroundColor.swift */,
+				7DC4DE242C215E4000B90328 /* TabView_UITabBarAppearance.swift */,
+				7DC4DE262C215FD200B90328 /* TabView_PageStyle.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		7DC4DE2A2C217A1500B90328 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE2B2C217AD100B90328 /* Date */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		7DC4DE2B2C217AD100B90328 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE2C2C217B1B00B90328 /* Swift_Date.playground */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		7DC4DE4B2C2542AC00B90328 /* TCA */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE4C2C2542C000B90328 /* Binding */,
+			);
+			path = TCA;
+			sourceTree = "<group>";
+		};
+		7DC4DE4C2C2542C000B90328 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE4D2C254D0B00B90328 /* PickerView.swift */,
+				7DC4DE4F2C254D1800B90328 /* PickerFeature.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		7DC4DE552C25866B00B90328 /* AnimationOptions */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */,
+				7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */,
+			);
+			path = AnimationOptions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +469,7 @@
 			packageProductDependencies = (
 				7D67A2A12C104BED00D74830 /* Dependencies */,
 				7D67A2A32C104BED00D74830 /* DependenciesMacros */,
+				7DC4DE512C254D7600B90328 /* ComposableArchitecture */,
 			);
 			productName = SwiftDemos;
 			productReference = 7D67A26F2C1046AC00D74830 /* SwiftDemos.app */;
@@ -444,19 +561,33 @@
 			files = (
 				7D67A2752C1046AC00D74830 /* ContentView.swift in Sources */,
 				7DC4DD582C10BC8700B90328 /* FourCharacters.swift in Sources */,
+				7DC4DE322C22A36A00B90328 /* ZStack_Layer.swift in Sources */,
 				7D67A2AB2C106CAB00D74830 /* LayoutBehavior.swift in Sources */,
+				7DC4DE3A2C22BAEC00B90328 /* GeometryReader_MinMidMax.swift in Sources */,
+				7DC4DE572C25868D00B90328 /* Scope_WithAnimation.swift in Sources */,
+				7DC4DE272C215FD200B90328 /* TabView_PageStyle.swift in Sources */,
+				7DC4DE1F2C21599200B90328 /* TabView_Intro.swift in Sources */,
 				7DC4DDFB2C1C456E00B90328 /* Toolbar_OnKeyboard.swift in Sources */,
-				7D67A29E2C104A0500D74830 /* UserService.swift in Sources */,
+				7DC4DE362C22B75F00B90328 /* GeometryReader_Positioning.swift in Sources */,
 				7DC4DDE82C1C3B8400B90328 /* Navigation_BarHidden.swift in Sources */,
-				7D67A2A72C104DD100D74830 /* FeatureModel.swift in Sources */,
+				7DC4DE142C2122E700B90328 /* Coordinates_Intro.swift in Sources */,
 				7DC4DD522C10B74F00B90328 /* BooksOO.swift in Sources */,
 				7DC4DDEE2C1C3DED00B90328 /* Navigation_CustomBackButton.swift in Sources */,
+				7DC4DE192C212BA600B90328 /* ScaleToFit_Intro.swift in Sources */,
+				7DC4DE4E2C254D0B00B90328 /* PickerView.swift in Sources */,
+				7DC4DE232C215B9400B90328 /* TabView_BackgroundColor.swift in Sources */,
+				7DC4DE302C22800400B90328 /* GeometryReader_Alignment.swift in Sources */,
+				7DC4DE382C22B88300B90328 /* GeometryReader_GetCoordinates.swift in Sources */,
 				7DC4DDD82C197A8D00B90328 /* AnimateSFSymbols.swift in Sources */,
 				7DC4DDE62C1C3B2D00B90328 /* Navigation_DisplayMode.swift in Sources */,
 				7D67A2732C1046AC00D74830 /* SwiftDemosApp.swift in Sources */,
+				7DC4DE252C215E4000B90328 /* TabView_UITabBarAppearance.swift in Sources */,
 				7DC4DDE32C1C36C200B90328 /* NavigationStack_Demo.swift in Sources */,
+				7DC4DE212C215AE900B90328 /* TabView_Colors.swift in Sources */,
 				7D67A2AD2C1090AD00D74830 /* LazyVStack.swift in Sources */,
 				7DC4DDF12C1C413500B90328 /* Toolbar_Location.swift in Sources */,
+				7DC4DE342C22B64800B90328 /* GeometryReader_GetSize.swift in Sources */,
+				7DC4DE502C254D1800B90328 /* PickerFeature.swift in Sources */,
 				7DC4DDF92C1C447F00B90328 /* Toolbar_Menu.swift in Sources */,
 				7DC4DDF32C1C422F00B90328 /* Toolbar_ToolbarItemGroup.swift in Sources */,
 				7DC4DD552C10B7BD00B90328 /* BooksDO.swift in Sources */,
@@ -466,9 +597,11 @@
 				7DC4DE082C1D345400B90328 /* HStack_Alignment.swift in Sources */,
 				7DC4DDEC2C1C3D2500B90328 /* Navigation_BackButtonHidden.swift in Sources */,
 				7DC4DDF52C1C42A200B90328 /* Toolbar_PrincipalPlacement.swift in Sources */,
+				7DC4DE162C21240C00B90328 /* Coordinates_WithinGeometryReader.swift in Sources */,
 				7DC4DE0B2C1D36C000B90328 /* ZStack_Intro.swift in Sources */,
 				7DC4DD4B2C1091A400B90328 /* HeaderView.swift in Sources */,
 				7DC4DDEA2C1C3BF200B90328 /* Navigation_NarBarItems.swift in Sources */,
+				7DC4DE592C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift in Sources */,
 				7DC4DDF72C1C43AE00B90328 /* Toolbar_OnSheet.swift in Sources */,
 				7DC4DD502C10B6FF00B90328 /* BooksView.swift in Sources */,
 			);
@@ -545,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -602,7 +735,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -747,16 +880,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-dependencies";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
+				kind = exactVersion;
+				version = 1.3.1;
 			};
 		};
 		7D67A2A82C104F7D00D74830 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.10.4;
+				kind = exactVersion;
+				version = 1.11.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -771,6 +904,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D67A29F2C104BB900D74830 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
 			productName = DependenciesMacros;
+		};
+		7DC4DE512C254D7600B90328 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D67A2A82C104F7D00D74830 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
