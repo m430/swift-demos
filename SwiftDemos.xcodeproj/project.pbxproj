@@ -64,6 +64,7 @@
 		7DC4DE642C266DDE00B90328 /* DragGesture_Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */; };
 		7DC4DE662C266F6E00B90328 /* DragGesture_onEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */; };
 		7DC4DE692C26703A00B90328 /* DragGesture_LimitToXOrY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */; };
+		7DC4DE6B2C27D49700B90328 /* DragGesture_MinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE6A2C27D49700B90328 /* DragGesture_MinDistance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Updating.swift; sourceTree = "<group>"; };
 		7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_onEnded.swift; sourceTree = "<group>"; };
 		7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_LimitToXOrY.swift; sourceTree = "<group>"; };
+		7DC4DE6A2C27D49700B90328 /* DragGesture_MinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_MinDistance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +490,7 @@
 				7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */,
 				7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */,
 				7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */,
+				7DC4DE6A2C27D49700B90328 /* DragGesture_MinDistance.swift */,
 			);
 			path = DragGesture;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				7DC4DE362C22B75F00B90328 /* GeometryReader_Positioning.swift in Sources */,
 				7DC4DDE82C1C3B8400B90328 /* Navigation_BarHidden.swift in Sources */,
 				7DC4DE142C2122E700B90328 /* Coordinates_Intro.swift in Sources */,
+				7DC4DE6B2C27D49700B90328 /* DragGesture_MinDistance.swift in Sources */,
 				7DC4DD522C10B74F00B90328 /* BooksOO.swift in Sources */,
 				7DC4DDEE2C1C3DED00B90328 /* Navigation_CustomBackButton.swift in Sources */,
 				7DC4DE642C266DDE00B90328 /* DragGesture_Updating.swift in Sources */,
