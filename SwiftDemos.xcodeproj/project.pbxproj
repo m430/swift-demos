@@ -58,6 +58,12 @@
 		7DC4DE522C254D7600B90328 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7DC4DE512C254D7600B90328 /* ComposableArchitecture */; };
 		7DC4DE572C25868D00B90328 /* Scope_WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */; };
 		7DC4DE592C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */; };
+		7DC4DE5B2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE5A2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift */; };
+		7DC4DE5E2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE5D2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift */; };
+		7DC4DE622C25D1DF00B90328 /* DragGesture_OnChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE612C25D1DF00B90328 /* DragGesture_OnChanged.swift */; };
+		7DC4DE642C266DDE00B90328 /* DragGesture_Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */; };
+		7DC4DE662C266F6E00B90328 /* DragGesture_onEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */; };
+		7DC4DE692C26703A00B90328 /* DragGesture_LimitToXOrY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +128,12 @@
 		7DC4DE4F2C254D1800B90328 /* PickerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFeature.swift; sourceTree = "<group>"; };
 		7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation.swift; sourceTree = "<group>"; };
 		7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_CustomAnimation.swift; sourceTree = "<group>"; };
+		7DC4DE5A2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_OnSingleView.swift; sourceTree = "<group>"; };
+		7DC4DE5D2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_MultipleViews.swift; sourceTree = "<group>"; };
+		7DC4DE612C25D1DF00B90328 /* DragGesture_OnChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnChanged.swift; sourceTree = "<group>"; };
+		7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Updating.swift; sourceTree = "<group>"; };
+		7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_onEnded.swift; sourceTree = "<group>"; };
+		7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_LimitToXOrY.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +218,7 @@
 		7D67A2A92C106C8500D74830 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7DC4DE5F2C25D1AD00B90328 /* Gestures */,
 				7DC4DE1C2C2158E400B90328 /* LayoutViews */,
 				7DC4DE1B2C2158CC00B90328 /* ControlViews */,
 				7DC4DE0F2C2041F700B90328 /* Modifiers */,
@@ -444,10 +457,39 @@
 		7DC4DE552C25866B00B90328 /* AnimationOptions */ = {
 			isa = PBXGroup;
 			children = (
-				7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */,
-				7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */,
+				7DC4DE5C2C25B08200B90328 /* withAnimation */,
 			);
 			path = AnimationOptions;
+			sourceTree = "<group>";
+		};
+		7DC4DE5C2C25B08200B90328 /* withAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE562C25868D00B90328 /* Scope_WithAnimation.swift */,
+				7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */,
+				7DC4DE5A2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift */,
+				7DC4DE5D2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift */,
+			);
+			path = withAnimation;
+			sourceTree = "<group>";
+		};
+		7DC4DE5F2C25D1AD00B90328 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE602C25D1C100B90328 /* DragGesture */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		7DC4DE602C25D1C100B90328 /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4DE612C25D1DF00B90328 /* DragGesture_OnChanged.swift */,
+				7DC4DE632C266DDE00B90328 /* DragGesture_Updating.swift */,
+				7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */,
+				7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */,
+			);
+			path = DragGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,17 +604,21 @@
 				7D67A2752C1046AC00D74830 /* ContentView.swift in Sources */,
 				7DC4DD582C10BC8700B90328 /* FourCharacters.swift in Sources */,
 				7DC4DE322C22A36A00B90328 /* ZStack_Layer.swift in Sources */,
+				7DC4DE5E2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift in Sources */,
 				7D67A2AB2C106CAB00D74830 /* LayoutBehavior.swift in Sources */,
 				7DC4DE3A2C22BAEC00B90328 /* GeometryReader_MinMidMax.swift in Sources */,
 				7DC4DE572C25868D00B90328 /* Scope_WithAnimation.swift in Sources */,
 				7DC4DE272C215FD200B90328 /* TabView_PageStyle.swift in Sources */,
 				7DC4DE1F2C21599200B90328 /* TabView_Intro.swift in Sources */,
+				7DC4DE622C25D1DF00B90328 /* DragGesture_OnChanged.swift in Sources */,
 				7DC4DDFB2C1C456E00B90328 /* Toolbar_OnKeyboard.swift in Sources */,
+				7DC4DE692C26703A00B90328 /* DragGesture_LimitToXOrY.swift in Sources */,
 				7DC4DE362C22B75F00B90328 /* GeometryReader_Positioning.swift in Sources */,
 				7DC4DDE82C1C3B8400B90328 /* Navigation_BarHidden.swift in Sources */,
 				7DC4DE142C2122E700B90328 /* Coordinates_Intro.swift in Sources */,
 				7DC4DD522C10B74F00B90328 /* BooksOO.swift in Sources */,
 				7DC4DDEE2C1C3DED00B90328 /* Navigation_CustomBackButton.swift in Sources */,
+				7DC4DE642C266DDE00B90328 /* DragGesture_Updating.swift in Sources */,
 				7DC4DE192C212BA600B90328 /* ScaleToFit_Intro.swift in Sources */,
 				7DC4DE4E2C254D0B00B90328 /* PickerView.swift in Sources */,
 				7DC4DE232C215B9400B90328 /* TabView_BackgroundColor.swift in Sources */,
@@ -580,6 +626,7 @@
 				7DC4DE382C22B88300B90328 /* GeometryReader_GetCoordinates.swift in Sources */,
 				7DC4DDD82C197A8D00B90328 /* AnimateSFSymbols.swift in Sources */,
 				7DC4DDE62C1C3B2D00B90328 /* Navigation_DisplayMode.swift in Sources */,
+				7DC4DE5B2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift in Sources */,
 				7D67A2732C1046AC00D74830 /* SwiftDemosApp.swift in Sources */,
 				7DC4DE252C215E4000B90328 /* TabView_UITabBarAppearance.swift in Sources */,
 				7DC4DDE32C1C36C200B90328 /* NavigationStack_Demo.swift in Sources */,
@@ -590,6 +637,7 @@
 				7DC4DE502C254D1800B90328 /* PickerFeature.swift in Sources */,
 				7DC4DDF92C1C447F00B90328 /* Toolbar_Menu.swift in Sources */,
 				7DC4DDF32C1C422F00B90328 /* Toolbar_ToolbarItemGroup.swift in Sources */,
+				7DC4DE662C266F6E00B90328 /* DragGesture_onEnded.swift in Sources */,
 				7DC4DD552C10B7BD00B90328 /* BooksDO.swift in Sources */,
 				7DC4DE122C2042FA00B90328 /* Position_Intro.swift in Sources */,
 				7DC4DDFD2C1C46C500B90328 /* Toolbar_ControlGroup.swift in Sources */,
