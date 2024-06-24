@@ -65,6 +65,11 @@
 		7DC4DE662C266F6E00B90328 /* DragGesture_onEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */; };
 		7DC4DE692C26703A00B90328 /* DragGesture_LimitToXOrY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */; };
 		7DC4DE6B2C27D49700B90328 /* DragGesture_MinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE6A2C27D49700B90328 /* DragGesture_MinDistance.swift */; };
+		7DC4DE6D2C27D88800B90328 /* Scope_WithAnimation_Sequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE6C2C27D88800B90328 /* Scope_WithAnimation_Sequencing.swift */; };
+		7DC4DE6F2C29031F00B90328 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE6E2C29031F00B90328 /* Scope_WithAnimation_Sequencing_SameView.swift */; };
+		7DC4DE712C2906C300B90328 /* Scope_WithAnimation_Sequencing_Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE702C2906C300B90328 /* Scope_WithAnimation_Sequencing_Completion.swift */; };
+		7DC4DE732C29112C00B90328 /* WithAnimation_Enable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE722C29112C00B90328 /* WithAnimation_Enable.swift */; };
+		7DC4DE752C29127500B90328 /* WiathAnimation_CompletionCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4DE742C29127500B90328 /* WiathAnimation_CompletionCriteria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +141,11 @@
 		7DC4DE652C266F6E00B90328 /* DragGesture_onEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_onEnded.swift; sourceTree = "<group>"; };
 		7DC4DE682C26703A00B90328 /* DragGesture_LimitToXOrY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_LimitToXOrY.swift; sourceTree = "<group>"; };
 		7DC4DE6A2C27D49700B90328 /* DragGesture_MinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_MinDistance.swift; sourceTree = "<group>"; };
+		7DC4DE6C2C27D88800B90328 /* Scope_WithAnimation_Sequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing.swift; sourceTree = "<group>"; };
+		7DC4DE6E2C29031F00B90328 /* Scope_WithAnimation_Sequencing_SameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing_SameView.swift; sourceTree = "<group>"; };
+		7DC4DE702C2906C300B90328 /* Scope_WithAnimation_Sequencing_Completion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing_Completion.swift; sourceTree = "<group>"; };
+		7DC4DE722C29112C00B90328 /* WithAnimation_Enable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimation_Enable.swift; sourceTree = "<group>"; };
+		7DC4DE742C29127500B90328 /* WiathAnimation_CompletionCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiathAnimation_CompletionCriteria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +481,11 @@
 				7DC4DE582C25885200B90328 /* Scope_WithAnimation_CustomAnimation.swift */,
 				7DC4DE5A2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift */,
 				7DC4DE5D2C25B0AD00B90328 /* Scope_WithAnimation_MultipleViews.swift */,
+				7DC4DE6C2C27D88800B90328 /* Scope_WithAnimation_Sequencing.swift */,
+				7DC4DE6E2C29031F00B90328 /* Scope_WithAnimation_Sequencing_SameView.swift */,
+				7DC4DE702C2906C300B90328 /* Scope_WithAnimation_Sequencing_Completion.swift */,
+				7DC4DE722C29112C00B90328 /* WithAnimation_Enable.swift */,
+				7DC4DE742C29127500B90328 /* WiathAnimation_CompletionCriteria.swift */,
 			);
 			path = withAnimation;
 			sourceTree = "<group>";
@@ -618,12 +633,15 @@
 				7DC4DE692C26703A00B90328 /* DragGesture_LimitToXOrY.swift in Sources */,
 				7DC4DE362C22B75F00B90328 /* GeometryReader_Positioning.swift in Sources */,
 				7DC4DDE82C1C3B8400B90328 /* Navigation_BarHidden.swift in Sources */,
+				7DC4DE6F2C29031F00B90328 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				7DC4DE142C2122E700B90328 /* Coordinates_Intro.swift in Sources */,
 				7DC4DE6B2C27D49700B90328 /* DragGesture_MinDistance.swift in Sources */,
 				7DC4DD522C10B74F00B90328 /* BooksOO.swift in Sources */,
+				7DC4DE6D2C27D88800B90328 /* Scope_WithAnimation_Sequencing.swift in Sources */,
 				7DC4DDEE2C1C3DED00B90328 /* Navigation_CustomBackButton.swift in Sources */,
 				7DC4DE642C266DDE00B90328 /* DragGesture_Updating.swift in Sources */,
 				7DC4DE192C212BA600B90328 /* ScaleToFit_Intro.swift in Sources */,
+				7DC4DE752C29127500B90328 /* WiathAnimation_CompletionCriteria.swift in Sources */,
 				7DC4DE4E2C254D0B00B90328 /* PickerView.swift in Sources */,
 				7DC4DE232C215B9400B90328 /* TabView_BackgroundColor.swift in Sources */,
 				7DC4DE302C22800400B90328 /* GeometryReader_Alignment.swift in Sources */,
@@ -633,6 +651,7 @@
 				7DC4DE5B2C25A50800B90328 /* Scope_WithAnimation_OnSingleView.swift in Sources */,
 				7D67A2732C1046AC00D74830 /* SwiftDemosApp.swift in Sources */,
 				7DC4DE252C215E4000B90328 /* TabView_UITabBarAppearance.swift in Sources */,
+				7DC4DE712C2906C300B90328 /* Scope_WithAnimation_Sequencing_Completion.swift in Sources */,
 				7DC4DDE32C1C36C200B90328 /* NavigationStack_Demo.swift in Sources */,
 				7DC4DE212C215AE900B90328 /* TabView_Colors.swift in Sources */,
 				7D67A2AD2C1090AD00D74830 /* LazyVStack.swift in Sources */,
@@ -640,6 +659,7 @@
 				7DC4DE342C22B64800B90328 /* GeometryReader_GetSize.swift in Sources */,
 				7DC4DE502C254D1800B90328 /* PickerFeature.swift in Sources */,
 				7DC4DDF92C1C447F00B90328 /* Toolbar_Menu.swift in Sources */,
+				7DC4DE732C29112C00B90328 /* WithAnimation_Enable.swift in Sources */,
 				7DC4DDF32C1C422F00B90328 /* Toolbar_ToolbarItemGroup.swift in Sources */,
 				7DC4DE662C266F6E00B90328 /* DragGesture_onEnded.swift in Sources */,
 				7DC4DD552C10B7BD00B90328 /* BooksDO.swift in Sources */,
